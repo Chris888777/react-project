@@ -1,0 +1,86 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+body.light {
+  background-color: white;
+  color: #000;
+}
+body.dark {
+  background-color: black;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+}
+table td,
+table th {
+  padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+table th {
+  background-color: #bcbcbc;
+}
+table tr {
+  border: 1px solid #bcbcbc;
+}
+table tr td button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table tr td img {
+  max-width: 100px;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+form {
+  max-width: 450px;
+  margin: 20px auto;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  padding: 20px;
+}
+form p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form input {
+  width: 100%;
+  max-width: 260px;
+}
+form input[type="button"] {
+  margin: 0 auto;
+}
+form input[type="checkbox"] {
+  width: 20px;
+}
+form select {
+  padding: 10px;
+}
+form .error {
+  color: red;
+}
+
+a {
+  cursor: pointer;
+}

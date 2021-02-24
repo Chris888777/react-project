@@ -1,0 +1,42 @@
+.admin {
+}
+
+.admin #myChart {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#productForm .form-row {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#productForm .form-row input {
+  flex: 1;
+  max-width: inherit;
+}
+
+#productForm .form-row label {
+  padding-right: 20px;
+}
+
+.admin-table tbody tr td input {
+  width: 100%;
+}
+
+.admin-table .col-header.price {
+  width: 90px;
+}
+
+.admin-table thead tr th.price {
+  width: 90px;
+}
+
+.admin-table .col-body.price {
+  width: 90px;
+}
+
+.admin-table tbody tr td.price {
+  width: 90px;
+}

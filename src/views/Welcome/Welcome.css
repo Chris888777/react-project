@@ -1,0 +1,39 @@
+.welcome {
+}
+
+.center-col {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: break-spaces;
+}
+.pagination {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.pagination button {
+  background: transparent;
+  border: none;
+}
+
+.pagination .page-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination .page-buttons .page-button {
+  color: blue;
+  cursor: pointer;
+}
+
+.pagination .page-buttons .page-button.currnet-page {
+  color: gray;
+  cursor: auto;
+}
